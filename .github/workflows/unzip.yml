@@ -4,7 +4,7 @@ on:
   workflow_dispatch: # Bisa dijalankan manual
   push:
     paths:
-      - "file.zip"   # Jalan otomatis kalau ada file.zip di-push
+      - "SnapFolio.zip"   # Jalan otomatis kalau ada file.zip di-push
 
 jobs:
   unzip:
@@ -13,8 +13,8 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Unzip file.zip
-        run: unzip file.zip -d extracted_folder
+      - name: Unzip SnapFolio.zip
+        run: unzip SnapFolio.zip -d extracted_folder
 
       - name: Commit extracted files
         run: |
