@@ -298,6 +298,68 @@
             margin-top: 20px;
         }
         
+        /* Bottom Navigation for Mobile */
+        .bottom-nav {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: white;
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+            z-index: 1000;
+            padding: 10px 0;
+        }
+        
+        .bottom-nav-items {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        
+        .bottom-nav-item {
+            flex: 1;
+            text-align: center;
+        }
+        
+        .bottom-nav-link {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: var(--secondary-color);
+            text-decoration: none;
+            font-size: 0.75rem;
+            padding: 5px;
+            transition: all 0.3s;
+        }
+        
+        .bottom-nav-link i {
+            font-size: 1.3rem;
+            margin-bottom: 3px;
+        }
+        
+        .bottom-nav-link.active,
+        .bottom-nav-link:hover {
+            color: var(--primary-color);
+        }
+        
+        @media (max-width: 768px) {
+            .navbar {
+                display: none !important;
+            }
+            
+            .bottom-nav {
+                display: block;
+            }
+            
+            body {
+                padding-bottom: 70px;
+            }
+        }
+        
         @keyframes fadeInDown {
             from {
                 opacity: 0;
@@ -361,6 +423,42 @@
             </div>
         </div>
     </nav>
+
+    <!-- Bottom Navigation for Mobile -->
+    <div class="bottom-nav">
+        <ul class="bottom-nav-items">
+            <li class="bottom-nav-item">
+                <a href="#home" class="bottom-nav-link active">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </a>
+            </li>
+            <li class="bottom-nav-item">
+                <a href="#about" class="bottom-nav-link">
+                    <i class="fas fa-user"></i>
+                    <span>Tentang</span>
+                </a>
+            </li>
+            <li class="bottom-nav-item">
+                <a href="#skills" class="bottom-nav-link">
+                    <i class="fas fa-code"></i>
+                    <span>Keahlian</span>
+                </a>
+            </li>
+            <li class="bottom-nav-item">
+                <a href="#projects" class="bottom-nav-link">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Proyek</span>
+                </a>
+            </li>
+            <li class="bottom-nav-item">
+                <a href="#contact" class="bottom-nav-link">
+                    <i class="fas fa-envelope"></i>
+                    <span>Kontak</span>
+                </a>
+            </li>
+        </ul>
+    </div>
 
     <!-- Hero Section -->
     <section class="hero-section" id="home">
@@ -450,7 +548,7 @@
                <div class="col-md-6 col-lg-4">
                     <div class="card project-card">
                         <div class="project-img">
-                            <img src="https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80" alt="E-Commerce Project">
+                            <img src="https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80" alt="Aplikasi SDM">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Aplikasi SDM</h5>
@@ -467,11 +565,11 @@
                  <div class="col-md-6 col-lg-4">
                     <div class="card project-card">
                         <div class="project-img">
-                            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=80" alt="Mobile App Project">
+                            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=80" alt="Aplikasi Karyawan">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Aplikasi Karyawan</h5>
-                            <p class="card-text">Aplikasi karyawan untuk menunjang kinerja karyawan fi RSU Muslimat Ponorogo seperti absensi,ijin,cuti dll.</p>
+                            <p class="card-text">Aplikasi karyawan untuk menunjang kinerja karyawan di RSU Muslimat Ponorogo seperti absensi,ijin,cuti dll.</p>
                             <div class="mb-2">
                                 <span class="badge bg-primary">Codeigniter</span>
                                 <span class="badge bg-success">Jquery</span>
@@ -484,7 +582,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="card project-card">
                         <div class="project-img">
-                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80" alt="Dashboard Project">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80" alt="Aplikasi SIMKLINIK">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Aplikasi SIMKLINIK</h5>
@@ -494,14 +592,14 @@
                                 <span class="badge bg-success">Jquery</span>
                                 <span class="badge bg-info">Mysql</span>
                             </div>
-                            <a href="#" class="btn btn-sm btn-primary open-modal" data-target="#projectModal1">Lihat Detail</a>
+                            <a href="#" class="btn btn-sm btn-primary open-modal" data-target="#projectModal3">Lihat Detail</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="card project-card">
                         <div class="project-img">
-                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80" alt="Dashboard Project">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80" alt="Aplikasi SIMAPOTEK">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Aplikasi SIMAPOTEK</h5>
@@ -511,7 +609,7 @@
                                 <span class="badge bg-success">Jquery</span>
                                 <span class="badge bg-info">Mysql</span>
                             </div>
-                            <a href="#" class="btn btn-sm btn-primary open-modal" data-target="#projectModal1">Lihat Detail</a>
+                            <a href="#" class="btn btn-sm btn-primary open-modal" data-target="#projectModal4">Lihat Detail</a>
                         </div>
                     </div>
                 </div>
@@ -526,7 +624,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="projectModal1Label">
-                        <i class="fas fa-laptop-code me-2"></i>Website E-Commerce
+                        <i class="fas fa-laptop-code me-2"></i>Aplikasi SDM
                     </h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
@@ -541,38 +639,22 @@
                     <!-- Tech Stack -->
                     <h6 class="fw-bold mb-3">Teknologi yang Digunakan</h6>
                     <div class="tech-stack">
-                        <span class="badge bg-primary">React.js</span>
-                        <span class="badge bg-success">Node.js</span>
-                        <span class="badge bg-info">MongoDB</span>
-                        <span class="badge bg-warning text-dark">Express.js</span>
-                        <span class="badge bg-danger">Redux</span>
-                        <span class="badge bg-secondary">JWT</span>
+                        <span class="badge bg-primary">Codeigniter</span>
+                        <span class="badge bg-success">Jquery</span>
+                        <span class="badge bg-info">Mysql</span>
                     </div>
                     
                     <!-- Fitur -->
                     <h6 class="fw-bold mb-3">Fitur Utama</h6>
                     <div class="project-feature">
                         <i class="fas fa-check-circle"></i>
-                        <strong>Shopping Cart & Checkout:</strong> Sistem keranjang belanja dengan proses checkout yang mudah dan aman
-                    </div>
-                    <div class="project-feature">
-                        <i class="fas fa-check-circle"></i>
-                        <strong>Payment Gateway:</strong> Integrasi dengan berbagai metode pembayaran (Midtrans, PayPal)
-                    </div>
-                    <div class="project-feature">
-                        <i class="fas fa-check-circle"></i>
-                        <strong>Admin Dashboard:</strong> Panel admin untuk mengelola produk, order, dan customer
+                        <strong>Admin Dashboard:</strong> Panel admin untuk mengelola karyawan, manajemen jadwal, dll
                     </div>
                     <div class="project-feature">
                         <i class="fas fa-check-circle"></i>
                         <strong>Responsive Design:</strong> Tampilan optimal di semua perangkat (desktop, tablet, mobile)
                     </div>
                     
-                    <!-- Links -->
-                    <div class="project-links">
-                        <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt me-2"></i>Live Demo</a>
-                        <a href="#" class="btn btn-outline-primary"><i class="fab fa-github me-2"></i>Source Code</a>
-                    </div>
                 </div>
             </div>
         </div>
@@ -584,7 +666,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="projectModal2Label">
-                        <i class="fas fa-mobile-alt me-2"></i>Aplikasi Mobile
+                        <i class="fas fa-mobile-alt me-2"></i>Aplikasi Karyawan
                     </h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
@@ -599,36 +681,18 @@
                     <!-- Tech Stack -->
                     <h6 class="fw-bold mb-3">Teknologi yang Digunakan</h6>
                     <div class="tech-stack">
-                        <span class="badge bg-primary">React Native</span>
-                        <span class="badge bg-warning text-dark">Firebase</span>
-                        <span class="badge bg-info">Redux</span>
-                        <span class="badge bg-danger">AsyncStorage</span>
+                                <span class="badge bg-primary">Codeigniter</span>
+                                <span class="badge bg-success">Jquery</span>
+                                <span class="badge bg-info">Mysql</span>
                     </div>
                     
                     <!-- Fitur -->
                     <h6 class="fw-bold mb-3">Fitur Utama</h6>
                     <div class="project-feature">
                         <i class="fas fa-check-circle"></i>
-                        <strong>Task Management:</strong> Buat, edit, dan hapus tugas dengan mudah
+                        <strong>Responsive Design:</strong> Tampilan optimal di semua perangkat (desktop, tablet, mobile)
                     </div>
-                    <div class="project-feature">
-                        <i class="fas fa-check-circle"></i>
-                        <strong>Push Notifications:</strong> Reminder otomatis untuk tugas yang akan datang
-                    </div>
-                    <div class="project-feature">
-                        <i class="fas fa-check-circle"></i>
-                        <strong>Cloud Sync:</strong> Sinkronisasi data antar perangkat dengan Firebase
-                    </div>
-                    <div class="project-feature">
-                        <i class="fas fa-check-circle"></i>
-                        <strong>Offline Mode:</strong> Tetap bisa digunakan tanpa koneksi internet
-                    </div>
-                    
-                    <!-- Links -->
-                    <div class="project-links">
-                        <a href="#" class="btn btn-primary"><i class="fab fa-google-play me-2"></i>Google Play</a>
-                        <a href="#" class="btn btn-outline-primary"><i class="fab fa-apple me-2"></i>App Store</a>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -640,7 +704,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="projectModal3Label">
-                        <i class="fas fa-chart-line me-2"></i>Dashboard Analytics
+                        <i class="fas fa-chart-line me-2"></i>Aplikasi SIMKLINIK
                     </h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
@@ -650,42 +714,63 @@
                     
                     <!-- Deskripsi -->
                     <h6 class="fw-bold mb-3">Deskripsi Proyek</h6>
-                    <p>Dashboard interaktif untuk visualisasi data dan analitik bisnis real-time. Membantu perusahaan dalam mengambil keputusan berdasarkan data dengan tampilan yang intuitif dan informatif.</p>
+                    <p>Aplikasi untuk manajemen klinik yang meliputi pendaftaran pasien,pemeriksaan,e-resep,apotek dan kasir.Aplikasi ini juga sudah terintegrasi satusehat</p>
                     
                     <!-- Tech Stack -->
                     <h6 class="fw-bold mb-3">Teknologi yang Digunakan</h6>
                     <div class="tech-stack">
-                        <span class="badge bg-primary">Vue.js</span>
-                        <span class="badge bg-success">Python</span>
-                        <span class="badge bg-danger">Chart.js</span>
-                        <span class="badge bg-info">PostgreSQL</span>
-                        <span class="badge bg-warning text-dark">Flask</span>
+                                <span class="badge bg-primary">Codeigniter</span>
+                                <span class="badge bg-success">Jquery</span>
+                                <span class="badge bg-info">Mysql</span>
                     </div>
                     
                     <!-- Fitur -->
                     <h6 class="fw-bold mb-3">Fitur Utama</h6>
                     <div class="project-feature">
                         <i class="fas fa-check-circle"></i>
-                        <strong>Real-time Data:</strong> Visualisasi data yang update secara real-time
+                        <strong>Responsive Design:</strong> Tampilan optimal di semua perangkat (desktop, tablet, mobile)
                     </div>
-                    <div class="project-feature">
-                        <i class="fas fa-check-circle"></i>
-                        <strong>Interactive Charts:</strong> Berbagai jenis chart interaktif (line, bar, pie, etc)
-                    </div>
-                    <div class="project-feature">
-                        <i class="fas fa-check-circle"></i>
-                        <strong>Export Reports:</strong> Export data dalam format PDF, Excel, atau CSV
-                    </div>
-                    <div class="project-feature">
-                        <i class="fas fa-check-circle"></i>
-                        <strong>Custom Filters:</strong> Filter data berdasarkan periode dan kategori tertentu
+
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Project 4 -->
+    <div class="modal fade" id="projectModal4" tabindex="-1" aria-labelledby="projectModal4Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal3Label">
+                        <i class="fas fa-chart-line me-2"></i>Aplikasi SIMAPOTEK
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Screenshot -->
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80" alt="Dashboard Screenshot" class="project-modal-img">
+                    
+                    <!-- Deskripsi -->
+                    <h6 class="fw-bold mb-3">Deskripsi Proyek</h6>
+                    <p>Aplikasi untuk manajemen apotek yang meliputi manajemen obat,transaksi penjualan,transaksi pembelian,stok opname hingga kartu stok</p>
+                    
+                    <!-- Tech Stack -->
+                    <h6 class="fw-bold mb-3">Teknologi yang Digunakan</h6>
+                    <div class="tech-stack">
+                                <span class="badge bg-primary">Codeigniter</span>
+                                <span class="badge bg-success">Jquery</span>
+                                <span class="badge bg-info">Mysql</span>
                     </div>
                     
-                    <!-- Links -->
-                    <div class="project-links">
-                        <a href="#" class="btn btn-primary"><i class="fas fa-external-link-alt me-2"></i>Live Demo</a>
-                        <a href="#" class="btn btn-outline-primary"><i class="fas fa-file-pdf me-2"></i>Documentation</a>
+                    <!-- Fitur -->
+                    <h6 class="fw-bold mb-3">Fitur Utama</h6>
+                    <div class="project-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <strong>Responsive Design:</strong> Tampilan optimal di semua perangkat (desktop, tablet, mobile)
                     </div>
+
+                   
                 </div>
             </div>
         </div>
@@ -731,12 +816,10 @@
     <footer class="text-center">
         <div class="container">
             <div class="social-links mb-3">
-                <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
-                <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
-                <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/sigit-pratama" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/sigitsuhardiono" title="GitHub"><i class="fab fa-github"></i></a>
             </div>
-            <p class="mb-0">&copy; 2025 Nama Anda. All rights reserved.</p>
+            <p class="mb-0">&copy; 2025 Sigit Pratama. All rights reserved.</p>
         </div>
     </footer>
 
@@ -757,9 +840,44 @@
                 var target = $(this).attr('href');
                 if(target !== '#' && !$(this).hasClass('open-modal')) {
                     e.preventDefault();
+                    
+                    // Offset untuk mobile (dengan bottom nav)
+                    var offset = $(window).width() <= 768 ? 0 : 70;
+                    
                     $('html, body').animate({
-                        scrollTop: $(target).offset().top - 70
+                        scrollTop: $(target).offset().top - offset
                     }, 800);
+                    
+                    // Update active state untuk bottom nav
+                    if($(window).width() <= 768) {
+                        $('.bottom-nav-link').removeClass('active');
+                        $(this).addClass('active');
+                    }
+                }
+            });
+
+            // Update active menu on scroll (untuk bottom nav)
+            $(window).on('scroll', function() {
+                if($(window).width() <= 768) {
+                    var scrollPos = $(window).scrollTop() + 100;
+                    
+                    $('section').each(function() {
+                        var sectionTop = $(this).offset().top;
+                        var sectionBottom = sectionTop + $(this).outerHeight();
+                        var sectionId = $(this).attr('id');
+                        
+                        if(scrollPos >= sectionTop && scrollPos < sectionBottom) {
+                            $('.bottom-nav-link').removeClass('active');
+                            $('.bottom-nav-link[href="#' + sectionId + '"]').addClass('active');
+                        }
+                    });
+                }
+                
+                // Navbar background change on scroll
+                if($(window).scrollTop() > 50) {
+                    $('.navbar').css('box-shadow', '0 4px 6px rgba(0,0,0,0.1)');
+                } else {
+                    $('.navbar').css('box-shadow', '0 2px 4px rgba(0,0,0,0.1)');
                 }
             });
 
@@ -768,15 +886,6 @@
                 e.preventDefault();
                 alert('Terima kasih! Pesan Anda telah dikirim.');
                 this.reset();
-            });
-
-            // Navbar background change on scroll
-            $(window).on('scroll', function() {
-                if($(window).scrollTop() > 50) {
-                    $('.navbar').css('box-shadow', '0 4px 6px rgba(0,0,0,0.1)');
-                } else {
-                    $('.navbar').css('box-shadow', '0 2px 4px rgba(0,0,0,0.1)');
-                }
             });
         });
     </script>
