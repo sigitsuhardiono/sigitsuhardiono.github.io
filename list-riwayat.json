@@ -1,1 +1,1 @@
-
+["status" => "Sukses", "pesan" => "Cuti " . $data['jns_cuti'] . " sukses", 'redirect_url' => base_url('/')]
