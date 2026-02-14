@@ -1,1 +1,36 @@
-["status" => "Sukses", "pesan" => "Cuti " . $data['jns_cuti'] . " sukses", 'redirect_url' => base_url('/')]
+{
+  "success": true,
+  "message": "Data kunjungan berhasil diambil",
+  "data": [
+    {
+      "tanggal_kunjungan": "2026-02-10",
+      "poli_tujuan": "Poli Umum",
+      "dokter": "dr. Andi Saputra",
+      "status_layanan": "Selesai"
+    },
+    {
+      "tanggal_kunjungan": "2026-02-09",
+      "poli_tujuan": "Poli Gigi",
+      "dokter": "drg. Rina Wijaya",
+      "status_layanan": "Selesai"
+    },
+    {
+      "tanggal_kunjungan": "2026-02-08",
+      "poli_tujuan": "Poli Anak",
+      "dokter": "dr. Budi Santoso",
+      "status_layanan": "Dalam Proses"
+    },
+    {
+      "tanggal_kunjungan": "2026-02-07",
+      "poli_tujuan": "Poli Penyakit Dalam",
+      "dokter": "dr. Maya Lestari, Sp.PD",
+      "status_layanan": "Selesai"
+    },
+    {
+      "tanggal_kunjjungan": "2026-02-06",
+      "poli_tujuan": "Poli THT",
+      "dokter": "dr. Fajar Nugroho, Sp.THT",
+      "status_layanan": "Batal"
+    }
+  ]
+}
