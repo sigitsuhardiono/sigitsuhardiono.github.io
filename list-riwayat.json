@@ -5,31 +5,31 @@
     {
       "tanggal_kunjungan": "2026-02-10",
       "poli_tujuan": "Poli Umum",
-      "dokter": "dr. Andi Saputra",
+      "dokter": "dr. Siti Nurohmah",
       "status_layanan": "Selesai"
     },
     {
       "tanggal_kunjungan": "2026-02-09",
       "poli_tujuan": "Poli Gigi",
-      "dokter": "drg. Rina Wijaya",
+      "dokter": "drg. Danang Wisnu",
       "status_layanan": "Selesai"
     },
     {
       "tanggal_kunjungan": "2026-02-08",
       "poli_tujuan": "Poli Anak",
-      "dokter": "dr. Budi Santoso",
+      "dokter": "dr. Miranti, Sp.A",
       "status_layanan": "Dalam Proses"
     },
     {
       "tanggal_kunjungan": "2026-02-07",
       "poli_tujuan": "Poli Penyakit Dalam",
-      "dokter": "dr. Maya Lestari, Sp.PD",
+      "dokter": "dr. Bahrodin, Sp.PD",
       "status_layanan": "Selesai"
     },
     {
       "tanggal_kunjjungan": "2026-02-06",
       "poli_tujuan": "Poli THT",
-      "dokter": "dr. Fajar Nugroho, Sp.THT",
+      "dokter": "dr. Serafika M, Sp.THT",
       "status_layanan": "Batal"
     }
   ]
