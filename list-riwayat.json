@@ -5,6 +5,7 @@
     {
       "id_kunjungan": 101,
       "tanggal_kunjungan": "2026-02-10",
+      "jenis_kunjungan": "Umum",
       "poli_tujuan": "Poli Umum",
       "dokter": "dr. Siti Nurohmah",
       "status_layanan": "Selesai"
@@ -12,6 +13,7 @@
     {
       "id_kunjungan": 102,
       "tanggal_kunjungan": "2026-02-09",
+      "jenis_kunjungan": "BPJS",
       "poli_tujuan": "Poli Gigi",
       "dokter": "drg. Danang Wisnu",
       "status_layanan": "Selesai"
@@ -19,13 +21,15 @@
     {
       "id_kunjungan": 103,
       "tanggal_kunjungan": "2026-02-08",
+      "jenis_kunjungan": "BPJS",
       "poli_tujuan": "Poli Anak",
       "dokter": "dr. Miranti, Sp.A",
-      "status_layanan": "Dalam Proses"
+      "status_layanan": "Selesai"
     },
     {
       "id_kunjungan": 104,
       "tanggal_kunjungan": "2026-02-07",
+      "jenis_kunjungan": "BPJS",
       "poli_tujuan": "Poli Penyakit Dalam",
       "dokter": "dr. Bahrodin, Sp.PD",
       "status_layanan": "Selesai"
@@ -33,6 +37,7 @@
     {
       "id_kunjungan": 105,
       "tanggal_kunjjungan": "2026-02-06",
+      "jenis_kunjungan": "BPJS",
       "poli_tujuan": "Poli THT",
       "dokter": "dr. Serafika M, Sp.THT",
       "status_layanan": "Batal"
