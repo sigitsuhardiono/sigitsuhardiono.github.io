@@ -8,18 +8,16 @@
       "asal_kunjungan": "Poli Umum",
       "hasil":[
         {
-          "sgot":{
-            "nilai":50,
-            "batas":60,
-            "keterangan":"normal"
-          }
+          "pemeriksaan" : "sgot",
+          "nilai":50,
+          "batas":60,
+          "keterangan":"normal"
         },
         {
-          "hbsag":{
-            "nilai":100,
-            "batas":120,
-            "keterangan":"normal"
-          }
+          "pemeriksaan" : "hbsag",
+          "nilai":250,
+          "batas":200,
+          "keterangan":"normal"
         }
       ]
     },
@@ -27,27 +25,24 @@
       "id_kunjungan": 102,
       "tanggal_kunjungan": "2026-02-09",
       "asal_kunjungan": "Poli Gigi",
-       "hasil":[
+      "hasil":[
         {
-          "ldl":{
-            "nilai":120,
-            "batas":80,
-            "keterangan":"normal"
-          }
+          "pemeriksaan" : "ldl",
+          "nilai":150,
+          "batas":60,
+          "keterangan":"normal"
         },
         {
-          "hdl":{
-            "nilai":200,
-            "batas":140,
-            "keterangan":"normal"
-          }
+          "pemeriksaan" : "hdl",
+          "nilai":200,
+          "batas":12,
+          "keterangan":"normal"
         },
         {
-          "trigleserid":{
-            "nilai":230,
-            "batas":100,
-            "keterangan":"normal"
-          }
+          "trigleserida" : "hdl",
+          "nilai":150,
+          "batas":120,
+          "keterangan":"tinggi"
         }
       ]
     }
