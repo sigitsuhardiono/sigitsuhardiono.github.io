@@ -39,7 +39,7 @@
           "keterangan":"normal"
         },
         {
-          "trigleserida" : "hdl",
+          "pemeriksaan" : "tg",
           "nilai":150,
           "batas":120,
           "keterangan":"tinggi"
