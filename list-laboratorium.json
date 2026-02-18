@@ -1,0 +1,16 @@
+{
+success: true,
+message: "Data kunjungan laboratorium berhasil diambil",
+data: [
+{
+id_kunjungan: 101,
+tanggal_kunjungan: "2026-02-10",
+asal_kunjungan:"Poli Umum",
+},
+{
+id_kunjungan: 102,
+tanggal_kunjungan: "2026-02-09",
+tanggal_kunjungan: "Poli Dalam",
+}
+]
+}
