@@ -19,7 +19,7 @@
             {
               "pemeriksaan" : "hematokrit",
               "nilai":"39",
-              "batas":"35 - 40",
+              "nilai_normal":"35 - 40",
               "keterangan":"N"
             }
           ]
@@ -43,7 +43,7 @@
             {
               "pemeriksaan" : "hematokrit",
               "nilai":"45",
-              "batas":"35 - 40",
+              "nilai_normal":"35 - 40",
               "keterangan":"H"
             }
           ]
@@ -60,14 +60,14 @@
             {
               "pemeriksaan" : "monosit",
               "nilai":"0.2",
-              "batas":"0.3 - 1.00",
+              "nilai_normal":"0.3 - 1.00",
               "keterangan":"L"
             }
             ,
             {
               "pemeriksaan" : "granulosit",
               "nilai":"3.0",
-              "batas":"2.5 - 7.0",
+              "nilai_normal":"2.5 - 7.0",
               "keterangan":"N"
             }
           ]
