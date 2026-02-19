@@ -6,45 +6,73 @@
       "id_kunjungan": 101,
       "tanggal_kunjungan": "2026-02-10",
       "asal_kunjungan": "Poli Umum",
-      "hasil":[
+      "jenis_pemeriksaan":[
         {
-          "pemeriksaan" : "sgot",
-          "nilai":50,
-          "batas":60,
-          "keterangan":"normal"
-        },
-        {
-          "pemeriksaan" : "hbsag",
-          "nilai":250,
-          "batas":200,
-          "keterangan":"normal"
+          "nama_jenis" : "hematologi",
+          "hasil":[
+            {
+              "pemeriksaan" : "hemoglobin",
+              "nilai":"13",
+              "nilai_normal":"12.3 - 15.3",
+              "keterangan":"N"
+            },
+            {
+              "pemeriksaan" : "hematokrit",
+              "nilai":"39",
+              "batas":"35 - 40",
+              "keterangan":"N"
+            }
+          ]
         }
-      ]
+      ],
     },
     {
       "id_kunjungan": 102,
       "tanggal_kunjungan": "2026-02-09",
       "asal_kunjungan": "Poli Gigi",
-      "hasil":[
+      "jenis_pemeriksaan":[
         {
-          "pemeriksaan" : "ldl",
-          "nilai":150,
-          "batas":60,
-          "keterangan":"normal"
+          "nama_jenis" : "hematologi",
+          "hasil":[
+            {
+              "pemeriksaan" : "hemoglobin",
+              "nilai":"11",
+              "nilai_normal":"12.3 - 15.3",
+              "keterangan":"L"
+            },
+            {
+              "pemeriksaan" : "hematokrit",
+              "nilai":"45",
+              "batas":"35 - 40",
+              "keterangan":"H"
+            }
+          ]
         },
         {
-          "pemeriksaan" : "hdl",
-          "nilai":200,
-          "batas":12,
-          "keterangan":"normal"
-        },
-        {
-          "pemeriksaan" : "tg",
-          "nilai":150,
-          "batas":120,
-          "keterangan":"tinggi"
+          "nama_jenis" : "hitung jenis",
+          "hasil":[
+            {
+              "pemeriksaan" : "lymfosit",
+              "nilai":"1.6",
+              "nilai_normal":"1.25 - 4.0",
+              "keterangan":"N"
+            },
+            {
+              "pemeriksaan" : "monosit",
+              "nilai":"0.2",
+              "batas":"0.3 - 1.00",
+              "keterangan":"L"
+            }
+            ,
+            {
+              "pemeriksaan" : "granulosit",
+              "nilai":"3.0",
+              "batas":"2.5 - 7.0",
+              "keterangan":"N"
+            }
+          ]
         }
-      ]
+      ],
     }
   ]
 }
