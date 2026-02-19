@@ -2,7 +2,7 @@
   "success": true,
   "message": "Data kunjungan berhasil diambil",
   "data": [
-    {
+   {
       "id_kunjungan": 101,
       "tanggal_kunjungan": "2026-02-10",
       "asal_kunjungan": "Poli Umum",
