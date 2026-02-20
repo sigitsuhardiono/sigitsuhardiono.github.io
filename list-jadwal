@@ -1,1 +1,98 @@
-{"status":true,"message":"Success","data":[{"title":"Senin","data":[{"id":0,"nama":"dr. Eko Jaenudin, Sp.A [PAGI]","jadwal":"07:00 - 08:00","warna_bpjs":"grey","pm_ol":"(Online)"},{"id":1,"nama":"dr. Miranti Fristy Medyatama, Sp.A","jadwal":"13:00 - 15:00","warna_bpjs":"#00C0EF","pm_ol":"(Online)"}]},{"title":"Selasa","data":[{"id":0,"nama":"dr. Eko Jaenudin, Sp.A [PAGI]","jadwal":"07:00 - 08:00","warna_bpjs":"grey","pm_ol":"(Online)"},{"id":1,"nama":"dr. Miranti Fristy Medyatama, Sp.A","jadwal":"13:00 - 15:00","warna_bpjs":"#00C0EF","pm_ol":"(Online)"}]},{"title":"Rabu","data":[{"id":0,"nama":"dr. Eko Jaenudin, Sp.A","jadwal":"14:15 - 15:30","warna_bpjs":"#00C0EF","pm_ol":"(Online)"},{"id":1,"nama":"dr. Eko Jaenudin, Sp.A [PAGI]","jadwal":"07:00 - 08:00","warna_bpjs":"grey","pm_ol":"(Online)"}]},{"title":"Kamis","data":[{"id":0,"nama":"dr. Eko Jaenudin, Sp.A [PAGI]","jadwal":"07:00 - 08:00","warna_bpjs":"grey","pm_ol":"(Online)"},{"id":1,"nama":"dr. Miranti Fristy Medyatama, Sp.A","jadwal":"13:00 - 15:00","warna_bpjs":"#00C0EF","pm_ol":"(Online)"}]},{"title":"Jum'at","data":[{"id":0,"nama":"dr. Eko Jaenudin, Sp.A [PAGI]","jadwal":"07:00 - 08:00","warna_bpjs":"#00C0EF","pm_ol":"(Online)"}]},{"title":"Sabtu","data":[]}]}
+{
+  "success": true,
+  "message": "Data jadwal berhasil diambil",
+  "data": [
+    {
+      "title": "Senin",
+      "data": [
+        {
+          "id": 0,
+          "nama": "dr. Eko Jaenudin, Sp.A [PAGI]",
+          "jadwal": "07:00 - 08:00",
+          "warna_bpjs": "grey",
+          "pm_ol": "(Online)"
+        },
+        {
+          "id": 1,
+          "nama": "dr. Miranti Fristy Medyatama, Sp.A",
+          "jadwal": "13:00 - 15:00",
+          "warna_bpjs": "#00C0EF",
+          "pm_ol": "(Online)"
+        }
+      ]
+    },
+    {
+      "title": "Selasa",
+      "data": [
+        {
+          "id": 0,
+          "nama": "dr. Eko Jaenudin, Sp.A [PAGI]",
+          "jadwal": "07:00 - 08:00",
+          "warna_bpjs": "grey",
+          "pm_ol": "(Online)"
+        },
+        {
+          "id": 1,
+          "nama": "dr. Miranti Fristy Medyatama, Sp.A",
+          "jadwal": "13:00 - 15:00",
+          "warna_bpjs": "#00C0EF",
+          "pm_ol": "(Online)"
+        }
+      ]
+    },
+    {
+      "title": "Rabu",
+      "data": [
+        {
+          "id": 0,
+          "nama": "dr. Eko Jaenudin, Sp.A",
+          "jadwal": "14:15 - 15:30",
+          "warna_bpjs": "#00C0EF",
+          "pm_ol": "(Online)"
+        },
+        {
+          "id": 1,
+          "nama": "dr. Eko Jaenudin, Sp.A [PAGI]",
+          "jadwal": "07:00 - 08:00",
+          "warna_bpjs": "grey",
+          "pm_ol": "(Online)"
+        }
+      ]
+    },
+    {
+      "title": "Kamis",
+      "data": [
+        {
+          "id": 0,
+          "nama": "dr. Eko Jaenudin, Sp.A [PAGI]",
+          "jadwal": "07:00 - 08:00",
+          "warna_bpjs": "grey",
+          "pm_ol": "(Online)"
+        },
+        {
+          "id": 1,
+          "nama": "dr. Miranti Fristy Medyatama, Sp.A",
+          "jadwal": "13:00 - 15:00",
+          "warna_bpjs": "#00C0EF",
+          "pm_ol": "(Online)"
+        }
+      ]
+    },
+    {
+      "title": "Jum'at",
+      "data": [
+        {
+          "id": 0,
+          "nama": "dr. Eko Jaenudin, Sp.A [PAGI]",
+          "jadwal": "07:00 - 08:00",
+          "warna_bpjs": "#00C0EF",
+          "pm_ol": "(Online)"
+        }
+      ]
+    },
+    {
+      "title": "Sabtu",
+      "data": []
+    }
+  ]
+}
