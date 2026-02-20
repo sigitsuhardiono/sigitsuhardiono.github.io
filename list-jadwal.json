@@ -9,14 +9,14 @@
           "id": 0,
           "nama": "dr. Eko Jaenudin, Sp.A [PAGI]",
           "jadwal": "07:00 - 08:00",
-          "warna_bpjs": "grey",
+          "bpjs": "tidak",
           "pm_ol": "(Online)"
         },
         {
           "id": 1,
           "nama": "dr. Miranti Fristy Medyatama, Sp.A",
           "jadwal": "13:00 - 15:00",
-          "warna_bpjs": "#00C0EF",
+          "bpjs": "ya",
           "pm_ol": "(Online)"
         }
       ]
@@ -28,14 +28,14 @@
           "id": 0,
           "nama": "dr. Eko Jaenudin, Sp.A [PAGI]",
           "jadwal": "07:00 - 08:00",
-          "warna_bpjs": "grey",
+           "bpjs": "tidak",
           "pm_ol": "(Online)"
         },
         {
           "id": 1,
           "nama": "dr. Miranti Fristy Medyatama, Sp.A",
           "jadwal": "13:00 - 15:00",
-          "warna_bpjs": "#00C0EF",
+           "bpjs": "ya",
           "pm_ol": "(Online)"
         }
       ]
@@ -47,14 +47,14 @@
           "id": 0,
           "nama": "dr. Eko Jaenudin, Sp.A",
           "jadwal": "14:15 - 15:30",
-          "warna_bpjs": "#00C0EF",
+           "bpjs": "tidak",
           "pm_ol": "(Online)"
         },
         {
           "id": 1,
           "nama": "dr. Eko Jaenudin, Sp.A [PAGI]",
           "jadwal": "07:00 - 08:00",
-          "warna_bpjs": "grey",
+           "bpjs": "tidak",
           "pm_ol": "(Online)"
         }
       ]
@@ -66,14 +66,14 @@
           "id": 0,
           "nama": "dr. Eko Jaenudin, Sp.A [PAGI]",
           "jadwal": "07:00 - 08:00",
-          "warna_bpjs": "grey",
+           "bpjs": "tidak",
           "pm_ol": "(Online)"
         },
         {
           "id": 1,
           "nama": "dr. Miranti Fristy Medyatama, Sp.A",
           "jadwal": "13:00 - 15:00",
-          "warna_bpjs": "#00C0EF",
+           "bpjs": "ya",
           "pm_ol": "(Online)"
         }
       ]
@@ -85,7 +85,7 @@
           "id": 0,
           "nama": "dr. Eko Jaenudin, Sp.A [PAGI]",
           "jadwal": "07:00 - 08:00",
-          "warna_bpjs": "#00C0EF",
+           "bpjs": "tidak",
           "pm_ol": "(Online)"
         }
       ]
